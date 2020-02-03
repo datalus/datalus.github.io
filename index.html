@@ -1,0 +1,101 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<title>datalus</title>
+		<style>
+			html, body { 
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				display: flex;
+				flex-direction: column;
+				font-family: Consolas, Monaco, Inconsolata, Droid Sans Mono, DejaVu Sans Mono, Arial;
+				background: #1d2021; 
+				color: #b8bb26; 
+				width: 100%;
+				height: 100%;
+			}
+			
+			#content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+/*				justify-content: center;
+*/				flex: 1 0 auto;
+			}
+
+			h1 {
+				font-size: 32px;
+			}
+
+			.links {
+				display: flex;
+				flex-direction: column;
+				padding: 0;
+				margin: 0;
+			}
+
+			.links li { 
+				list-style: none; 
+				width: 180px; 
+				height: 64px; 
+				margin-bottom: 0.67em;
+			}
+
+			.links li:last-child {
+				margin-bottom: 0;
+			}
+
+			.links li:hover {
+				color: #1d2021;
+				background: #b8bb26;
+			}
+
+			.links li a { 
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				font-weight: bold;
+				font-size: 24px;
+				color: #b8bb26;
+				text-decoration: none; 
+				border: 1px solid #b8bb26;
+				border-bottom: none;
+				box-sizing: border-box;
+			}
+
+			.links li a:last-child {
+				border-bottom: 1px solid #b8bb26;
+				margin-bottom: none;
+			}
+
+			.links li a:hover {
+				color: #1d2021;
+			}
+
+			.copyright {
+				padding-left: 10px;
+				padding-bottom: 10px;
+				font-size: 12px;
+				flex: none;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<h1>datalus@</h1>
+			<ul class="links">
+				<li><a href="https://github.com/datalus">github.com</a></li>
+				<li><a href="https://datalus.itch.io">itch.io</a></li>
+				<li><a href="https://twitch.tv/datalustv">twitch.tv</a></li>
+				<li><a href="https://twitter.com/datalus">twitter.com</a></li>
+			</ul>
+		</div>
+		<span class="copyright">&copy; 2020 d.atal.us All Rights Reserved</span>
+	</body>
+</html>
